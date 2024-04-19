@@ -1,0 +1,47 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 15px;
+  cursor: url("../../cursor/cursor.png"), pointer;
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.item[data-target="disabled"] {
+  color: #999;
+  cursor: default;
+}
+
+.item[data-target="disabled"] svg path {
+  fill: #999;
+}
+
+.item:hover {
+  background-color: #f4f4f4;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.actionBtn {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  color: #999;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 17px;
+  cursor: url("../../cursor/cursor.png"), auto;
+  width: 100%;
+  background-color: transparent;
+  padding: 8px 15px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.actionBtn:hover {
+  background-color: #f4f4f4;
+}

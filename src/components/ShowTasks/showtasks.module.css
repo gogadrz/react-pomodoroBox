@@ -1,0 +1,22 @@
+.list {
+  list-style: none;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.pomodoroCnt {
+  margin-right: 7px;
+}
+
+.pomodoroDescr {
+  margin-right: 12px;
+  pointer-events: none;
+  border: none;
+}
+
+.pomodoroDescr[data-target="edit"] {
+  pointer-events: auto;
+  outline: none;
+  background-color: #e4e4e4;
+}

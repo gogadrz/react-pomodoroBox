@@ -1,0 +1,7 @@
+.pomodoroIcon {
+  margin-right: 7px;
+}
+
+.pomodoroIcon:hover path:first-child {
+  fill: #b7280f;
+}

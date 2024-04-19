@@ -1,0 +1,9 @@
+:root {
+  --stop-btn-text-color: #dc3e22;
+  --stop-gtn-text-color-hover: #fff;
+  --stop-btn-active-color: #dc3e22;
+}
+
+.taskControls {
+  margin-bottom: 112px;
+}
