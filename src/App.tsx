@@ -23,6 +23,10 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
+          <Route
+            path="/react-pomodoroBox"
+            element={<Navigate to="/timer" replace />}
+          />
           <Route path="/" element={<Navigate to="/timer" replace />} />
           <Route
             path="/timer"
